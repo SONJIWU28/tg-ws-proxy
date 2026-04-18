@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#212933</color>
+    <color name="input_background">#1A2332</color>
+    <color name="button_start">#003573</color>
+    <color name="button_stop">#8B0000</color>
+    <color name="button_telegram">#2AABEE</color>
+    <color name="button_secondary">#445A73</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AABBDD</color>
+    <color name="text_hint">#667788</color>
+    <color name="status_running">#4CAF50</color>
+    <color name="status_stopped">#FF6B6B</color>
+</resources>

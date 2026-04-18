@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TgWsProxy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#003573</item>
+        <item name="colorPrimaryVariant">#002255</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#2AABEE</item>
+        <item name="colorSecondaryVariant">#1E88C9</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:colorBackground">#212933</item>
+        <item name="colorSurface">#212933</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:statusBarColor">#1A2332</item>
+        <item name="android:navigationBarColor">#1A2332</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+</resources>

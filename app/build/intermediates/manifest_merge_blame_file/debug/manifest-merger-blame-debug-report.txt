@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tgwsproxy"
+4    android:versionCode="1"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+13-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:6:5-89
+13-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:6:22-86
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:7:5-77
+14-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:8:5-68
+15-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+16-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:9:5-95
+16-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:9:22-92
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:10:5-79
+17-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:11:5-76
+18-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:11:22-73
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\440a64c1659b3784956be1ef27019da1\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.tgwsproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\440a64c1659b3784956be1ef27019da1\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\440a64c1659b3784956be1ef27019da1\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.tgwsproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\440a64c1659b3784956be1ef27019da1\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\440a64c1659b3784956be1ef27019da1\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:13:5-40:19
+27        android:allowBackup="true"
+27-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-3\440a64c1659b3784956be1ef27019da1\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:15:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:16:9-41
+33        android:networkSecurityConfig="@xml/network_security_config"
+33-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:17:9-69
+34        android:supportsRtl="true"
+34-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:18:9-35
+35        android:theme="@style/Theme.TgWsProxy" >
+35-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:19:9-47
+36        <activity
+36-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:21:9-29:20
+37            android:name="com.tgwsproxy.ui.MainActivity"
+37-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:22:13-44
+38            android:exported="true"
+38-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:23:13-36
+39            android:launchMode="singleTop" >
+39-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:24:13-43
+40            <intent-filter>
+40-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:26:17-69
+41-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:27:17-77
+43-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:31:9-38:19
+48            android:name="com.tgwsproxy.service.ProxyForegroundService"
+48-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:32:13-59
+49            android:exported="false"
+49-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:33:13-37
+50            android:foregroundServiceType="specialUse" >
+50-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:34:13-55
+51            <property
+51-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:35:13-37:49
+52                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+52-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:36:17-76
+53                android:value="network_proxy" />
+53-->C:\Users\Admin\Desktop\TgWsProxy\app\src\main\AndroidManifest.xml:37:17-46
+54        </service>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.tgwsproxy.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\40af677edc9e981bf1ec9bb11c8b1d32\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\01096349b0936ba7f741e909295c017b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\01096349b0936ba7f741e909295c017b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\01096349b0936ba7f741e909295c017b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <uses-library
+71-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f71912687f63137c0b256b2806c5daaa\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f71912687f63137c0b256b2806c5daaa\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f71912687f63137c0b256b2806c5daaa\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+74        <uses-library
+74-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f71912687f63137c0b256b2806c5daaa\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f71912687f63137c0b256b2806c5daaa\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f71912687f63137c0b256b2806c5daaa\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\4dbbd11a74d28bd64c37893cccf57482\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>
