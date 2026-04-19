@@ -29,8 +29,7 @@ class WsPool(
         val now = System.currentTimeMillis()
         while (true) {
             val entry = bucket.pollFirst() ?: break
-            val expired = now - entry.createdAt > maxAgeMs
-            if (expired || entry.ws.isClosed) {
+            if (entry.ws.isClosed || now - entry.createdAt > maxAgeMs) {
                 closeQuietly(entry.ws)
                 continue
             }
@@ -67,7 +66,7 @@ class WsPool(
     }
 
     private fun scheduleRefill(key: PoolKey, targetIp: String, domains: List<String>) {
-        if (isShutdown) return
+        if (isShutdown || domains.isEmpty()) return
         if (!refilling.add(key)) return
         executor.execute {
             try {
@@ -78,7 +77,7 @@ class WsPool(
                     executor.submit(Callable { connectOne(targetIp, domains) })
                 }
                 for (future in futures) {
-                    val ws = runCatching { future.get(12, TimeUnit.SECONDS) }.getOrNull()
+                    val ws = runCatching { future.get(15, TimeUnit.SECONDS) }.getOrNull()
                     if (ws != null && !isShutdown) {
                         bucket.addLast(Entry(ws, System.currentTimeMillis()))
                     }
@@ -90,14 +89,21 @@ class WsPool(
     }
 
     private fun connectOne(targetIp: String, domains: List<String>): RawWebSocket? {
+        var lastRedirectDomain: String? = null
         for (domain in domains) {
             try {
-                return RawWebSocket.connect(targetIp, domain, timeoutMs = 8_000)
+                return RawWebSocket.connect(targetIp, domain, timeoutMs = 10_000)
             } catch (e: WsHandshakeException) {
-                if (e.isRedirect) continue
-                return null
+                if (e.isRedirect) {
+                    lastRedirectDomain = e.location
+                    continue
+                }
             } catch (_: Exception) {
-                return null
+            }
+        }
+        if (lastRedirectDomain != null) {
+            runCatching {
+                return RawWebSocket.connect(targetIp, lastRedirectDomain, timeoutMs = 10_000)
             }
         }
         return null

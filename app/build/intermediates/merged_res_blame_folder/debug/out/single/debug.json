@@ -1,86 +1,154 @@
 [
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/layout_activity_main.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_ic_launcher_monochrome.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\ic_launcher_monochrome.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/xml_network_security_config.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/xml/network_security_config.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_ic_stop.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\ic_stop.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_ic_notification.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/ic_notification.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_input_background.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/input_background.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_ic_restart.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\ic_restart.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_ic_restart.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/ic_restart.xml"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_ic_stop.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/ic_stop.xml"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/ic_launcher_background.xml"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.tgwsproxy.app-main-42:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.tgwsproxy.app-merged_res-40:/drawable_ic_launcher_monochrome.xml.flat",
-        "source": "com.tgwsproxy.app-main-42:/drawable/ic_launcher_monochrome.xml"
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.tgwsproxy.app-main-60:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tgwsproxy.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.tgwsproxy.app-main-60:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     }
 ]

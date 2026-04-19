@@ -31,6 +31,7 @@ class RawWebSocket private constructor(
         private const val SOCKET_BUF_SIZE = 256 * 1024
         private const val STREAM_BUF_SIZE = 256 * 1024
         private const val MAX_FRAME_SIZE = 16 * 1024 * 1024
+        private const val READ_TIMEOUT_MS = 180_000
 
         private val random = SecureRandom()
         private val threadLocalMaskKey = ThreadLocal.withInitial { ByteArray(4) }
@@ -50,6 +51,7 @@ class RawWebSocket private constructor(
             rawSocket.connect(InetSocketAddress(ip, 443), timeoutMs)
             rawSocket.soTimeout = timeoutMs
             rawSocket.tcpNoDelay = true
+            rawSocket.reuseAddress = true
             rawSocket.sendBufferSize = SOCKET_BUF_SIZE
             rawSocket.receiveBufferSize = SOCKET_BUF_SIZE
             rawSocket.keepAlive = true
@@ -64,6 +66,7 @@ class RawWebSocket private constructor(
                     sslSocket.enabledProtocols = arrayOf("TLSv1.3", "TLSv1.2")
                 }
             }
+            sslSocket.enableSessionCreation = true
             sslSocket.startHandshake()
 
             val input = BufferedInputStream(sslSocket.inputStream, STREAM_BUF_SIZE)
@@ -107,7 +110,7 @@ class RawWebSocket private constructor(
                 sslSocket.close()
                 throw WsHandshakeException(statusCode, responseLine, headers, headers["location"])
             }
-            sslSocket.soTimeout = 120_000
+            sslSocket.soTimeout = READ_TIMEOUT_MS
             return RawWebSocket(sslSocket, input, output)
         }
 

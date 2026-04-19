@@ -5,6 +5,7 @@
     <color name="button_start">#003573</color>
     <color name="button_stop">#8B0000</color>
     <color name="button_telegram">#2AABEE</color>
+    <color name="ic_launcher_background">#000000</color>
     <color name="input_background">#1A2332</color>
     <color name="status_running">#4CAF50</color>
     <color name="status_stopped">#FF6B6B</color>
@@ -13,17 +14,9 @@
     <color name="text_secondary">#AABBDD</color>
     <string name="app_name">TG MTProto Proxy</string>
     <style name="Theme.TgWsProxy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#003573</item>
-        <item name="colorPrimaryVariant">#002255</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorSecondary">#2AABEE</item>
-        <item name="colorSecondaryVariant">#1E88C9</item>
-        <item name="colorOnSecondary">#FFFFFF</item>
-        <item name="android:colorBackground">#212933</item>
-        <item name="colorSurface">#212933</item>
-        <item name="colorOnSurface">#FFFFFF</item>
-        <item name="android:statusBarColor">#1A2332</item>
-        <item name="android:navigationBarColor">#1A2332</item>
-        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
     </style>
 </resources>
